@@ -1,0 +1,17 @@
+2024/02/08-16:42:32.092 129e Reusing MANIFEST /home/dawid/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/08-16:42:32.093 129e Recovering log #21
+2024/02/08-16:42:32.144 129e Reusing old log /home/dawid/.config/discord/Local Storage/leveldb/000021.log 
+2024/02/08-16:45:03.009 1334 Level-0 table #25: started
+2024/02/08-16:45:03.139 1334 Level-0 table #25: 723746 bytes OK
+2024/02/08-16:45:03.205 1334 Delete type=0 #21
+2024/02/08-16:45:03.207 1334 Compacting 4@0 + 2@1 files
+2024/02/08-16:45:03.315 1334 Generated table #26@0: 12 keys, 2157617 bytes
+2024/02/08-16:45:03.414 1334 Generated table #27@0: 88 keys, 2878957 bytes
+2024/02/08-16:45:03.414 1334 Compacted 4@0 + 2@1 files => 5036574 bytes
+2024/02/08-16:45:03.480 1334 compacted to: files[ 0 3 0 0 0 0 0 ]
+2024/02/08-16:45:03.481 1334 Delete type=2 #12
+2024/02/08-16:45:03.481 1334 Delete type=2 #13
+2024/02/08-16:45:03.481 1334 Delete type=2 #16
+2024/02/08-16:45:03.481 1334 Delete type=2 #19
+2024/02/08-16:45:03.481 1334 Delete type=2 #22
+2024/02/08-16:45:03.481 1334 Delete type=2 #25
