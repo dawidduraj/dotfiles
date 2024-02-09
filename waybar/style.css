@@ -1,3 +1,75 @@
 * {
-	font-family: 'CaskaydiaCove Nerd Font'
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 45px;
+}
+
+tooltip {
+    border-radius: 10px;
+    background: rgba(0,0,0, 0.9)
+}
+
+#workspaces,
+#clock,
+.modules-right{
+    margin: 5px 10px;
+    padding: 0px 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+#workspaces button {
+    color: gray;
+    transition: all .2s ease-in-out;
+}
+
+#workspaces button:hover,
+#workspaces button.active
+{
+    color: #ffffff;
+    box-shadow: none;
+    border-top: none;
+    background: transparent;
+}
+
+#workspaces button.active 
+{
+    border-bottom: 2px solid #ffffff;
+}
+
+#clock 
+{
+    color: white;
+    padding: 0px 20px;
+}
+#battery.charging {
+    color: white;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.warning:not(.charging) {
+    color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.modules-right{
+    color: white;
 }
